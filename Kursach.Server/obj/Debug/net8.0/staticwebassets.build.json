@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OMey2jFvcFmbZCncrHgO6TsVXg2GZrfq0Z7uU16l2JM=",
+  "Source": "Kursach.Server",
+  "BasePath": "_content/Kursach.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
