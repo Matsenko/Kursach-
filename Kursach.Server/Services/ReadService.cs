@@ -10,7 +10,7 @@ public class ReadService: IReadService
 
     public async Task<IEnumerable<MbModel>> GetMbAsync()
     {
-        string apiUrl = $"https://api.minfin.com.ua/mb/667a679732962e6bc021eb213772708ffca89c5a/";
+        string apiUrl = $"https://api.monobank.ua/bank/currency";
 
         try
         {

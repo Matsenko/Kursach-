@@ -1,15 +1,14 @@
+using Newtonsoft.Json;
+
 namespace Kursach.Models;
 
 public class MbModel
 {
-    
-    public long Id { get; set; }
-    public DateTime PointDate { get; set; }
-    public DateTime Date { get; set; }
-    public float Ask { get; set; }
-    public float Bid { get; set; }
-    public float TrendAsk { get; set; }
-    public float TrendBid { get; set; }
-    public string Currency { get; set; }
-    public string? Comment { get; set; }
+
+    public int CurrencyCodeA { get; set; }
+    public int CurrencyCodeB { get; set; }
+    public long Date { get; set; }
+    public double RateSell { get; set; }
+    public double RateBuy { get; set; }
+    public double RateCross { get; set; }
 }

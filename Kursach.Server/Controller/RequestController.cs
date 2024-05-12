@@ -28,4 +28,18 @@ public class RequestController : ControllerBase
         Console.WriteLine("Fetched data: " + string.Join(", ", currencyData));
         return Ok(currencyData);
     }
+    [HttpGet("{currency_code}")]
+    public async Task<ActionResult<IEnumerable<MbModel>>> Get(string currency_code)
+    {
+
+        var currencyData = await _readService.GetMbAsync();
+        if (currencyData == null)
+        {
+            return NotFound();
+        }
+        currencyData = currencyData.Where(currency => currency.CurrencyCodeA.ToString() == currency_code).ToList();
+        currencyData = currencyData.OrderBy(currency => currency.CurrencyCodeA).ToList();
+        Console.WriteLine("Fetched data: " + string.Join(", ", currencyData));
+        return Ok(currencyData);
+    }
 }
