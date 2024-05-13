@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Kursach\\Kursach-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{391B6937-D196-4402-A87D-D51E608664A0}|Kursach.Client\\Kursach.Client.csproj|c:\\kursach\\kursach-\\kursach.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391B6937-D196-4402-A87D-D51E608664A0}|Kursach.Client\\Kursach.Client.csproj|solutionrelative:kursach.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\controller\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\controller\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\services\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +23,16 @@
       "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\services\\readservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\data\\kursachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\data\\kursachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\services\\iservice\\ireadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\services\\iservice\\ireadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Kursach\\Kursach-\\Kursach.Server\\Migrations\\20240513192848_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Kursach.Server\\Migrations\\20240513192848_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\kursach.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\kursach.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{524F12E3-4EF2-4B41-8D4B-F45FCD2F639D}|Kursach.Shared\\Kursach.Shared.csproj|c:\\kursach\\kursach-\\kursach.shared\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,12 +71,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Kursach.Server\\Migrations\\20240513184949_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{391B6937-D196-4402-A87D-D51E608664A0}|Kursach.Client\\Kursach.Client.csproj|c:\\kursach\\kursach-\\kursach.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391B6937-D196-4402-A87D-D51E608664A0}|Kursach.Client\\Kursach.Client.csproj|solutionrelative:kursach.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{524F12E3-4EF2-4B41-8D4B-F45FCD2F639D}|Kursach.Shared\\Kursach.Shared.csproj|c:\\kursach\\kursach-\\kursach.shared\\kursach.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{524F12E3-4EF2-4B41-8D4B-F45FCD2F639D}|Kursach.Shared\\Kursach.Shared.csproj|solutionrelative:kursach.shared\\kursach.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\migrations\\20240513192848_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\migrations\\20240513192848_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "20240513192848_InitialCreate.cs",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Migrations\\20240513192848_InitialCreate.cs",
               "RelativeDocumentMoniker": "Kursach.Server\\Migrations\\20240513192848_InitialCreate.cs",
@@ -118,20 +118,18 @@
               "RelativeToolTip": "Kursach.Server\\Migrations\\20240513192848_InitialCreate.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T19:28:48.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T19:28:48.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Kursach.Server",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Kursach.Server.csproj",
               "RelativeDocumentMoniker": "Kursach.Server\\Kursach.Server.csproj",
               "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Server\\Kursach.Server.csproj",
               "RelativeToolTip": "Kursach.Server\\Kursach.Server.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-13T19:28:01.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T19:28:01.172Z"
             },
             {
               "$type": "Document",
@@ -143,25 +141,24 @@
               "RelativeToolTip": "Kursach.Shared\\DTOs\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T19:01:32.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T19:01:32.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Kursach.Server\\Services\\UserService.cs",
               "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Server\\Services\\UserService.cs",
               "RelativeToolTip": "Kursach.Server\\Services\\UserService.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAAB8AAAAMAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T18:58:10.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Services\\IService\\IUserService.cs",
               "RelativeDocumentMoniker": "Kursach.Server\\Services\\IService\\IUserService.cs",
@@ -182,8 +179,7 @@
               "RelativeToolTip": "Kursach.Server\\Migrations\\20240513185149_InitialCreate.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T18:51:49.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T18:51:49.948Z"
             },
             {
               "$type": "Document",
@@ -195,12 +191,11 @@
               "RelativeToolTip": "Kursach.Server\\Migrations\\20240513184949_InitialCreate.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T18:49:49.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T18:49:49.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "Kursach.Server\\Models\\UserModel.cs",
@@ -213,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\appsettings.json",
               "RelativeDocumentMoniker": "Kursach.Server\\appsettings.json",
@@ -221,25 +216,23 @@
               "RelativeToolTip": "Kursach.Server\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T18:38:19.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T18:38:19.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Kursach.Shared",
+              "DocumentIndex": 17,
+              "Title": "Kursach.Shared.csproj",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Shared\\Kursach.Shared.csproj",
               "RelativeDocumentMoniker": "Kursach.Shared\\Kursach.Shared.csproj",
               "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Shared\\Kursach.Shared.csproj",
               "RelativeToolTip": "Kursach.Shared\\Kursach.Shared.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-13T18:31:24.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T18:31:24.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Kursach.Server\\Properties\\launchSettings.json",
@@ -247,12 +240,11 @@
               "RelativeToolTip": "Kursach.Server\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T18:30:10.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T18:30:10.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ReadService.cs",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Services\\ReadService.cs",
               "RelativeDocumentMoniker": "Kursach.Server\\Services\\ReadService.cs",
@@ -265,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IReadService.cs",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Services\\IService\\IReadService.cs",
               "RelativeDocumentMoniker": "Kursach.Server\\Services\\IService\\IReadService.cs",
@@ -273,8 +265,7 @@
               "RelativeToolTip": "Kursach.Server\\Services\\IService\\IReadService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T06:45:05.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T06:45:05.831Z"
             },
             {
               "$type": "Document",
@@ -284,7 +275,7 @@
               "RelativeDocumentMoniker": "Kursach.Server\\Controller\\RequestController.cs",
               "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Server\\Controller\\RequestController.cs",
               "RelativeToolTip": "Kursach.Server\\Controller\\RequestController.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAAAG4AAAAMAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T16:34:40.026Z",
               "EditorCaption": ""
@@ -299,8 +290,7 @@
               "RelativeToolTip": "Kursach.Server\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T06:44:47.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T06:44:47.099Z"
             },
             {
               "$type": "Document",
@@ -312,8 +302,7 @@
               "RelativeToolTip": "Kursach.Server\\Models\\MbModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T16:39:00.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T16:39:00.902Z"
             },
             {
               "$type": "Document",
@@ -325,25 +314,24 @@
               "RelativeToolTip": "Kursach.Shared\\DTOs\\CurrencyDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T16:38:42.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T16:38:42.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Client\\Program.cs",
               "RelativeDocumentMoniker": "Kursach.Client\\Program.cs",
               "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Client\\Program.cs",
               "RelativeToolTip": "Kursach.Client\\Program.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAGoAAAAiAAAA",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAAKUAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T16:36:03.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "KursachContext.cs",
               "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Data\\KursachContext.cs",
               "RelativeDocumentMoniker": "Kursach.Server\\Data\\KursachContext.cs",
@@ -351,8 +339,7 @@
               "RelativeToolTip": "Kursach.Server\\Data\\KursachContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T16:35:57.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T16:35:57.249Z"
             }
           ]
         }

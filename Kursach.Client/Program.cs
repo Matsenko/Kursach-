@@ -2,6 +2,8 @@
 using Newtonsoft.Json;
 using System;
 using System.Net.Http;
+using System.Net.Http.Json;
+using System.Text;
 using Telegram.Bot;
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Polling;
@@ -53,10 +55,20 @@ public class Program
 
                     if (message.Text == "/start")
                     {
+                        await RegisterUser(botClient, update, cancellationToken);
                         await botClient.SendTextMessageAsync(
                             chatId,
                             "Choose a currency:",
                             replyMarkup: GetCurrencyKeyboardMarkup());
+
+                    }
+                    else if(message.Text == "/stop")
+                    {
+                        await DeleteUser(botClient, update, cancellationToken);
+                        await botClient.SendTextMessageAsync(
+                            chatId,
+                            "You have been successfully deleted!");
+
                     }
                     else if (message.Text == "USD")
                     {
@@ -128,6 +140,47 @@ public class Program
         }
         return currencyList;
 
+    }
+    private static async Task RegisterUser(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
+    {
+        var message = update.Message;
+        var chatId = message.Chat.Id;
+
+        var content = new StringContent(JsonConvert.SerializeObject(new UserDTO { UserId = chatId.ToString() }), Encoding.UTF8, "application/json");
+        HttpResponseMessage response = await _httpClient.PostAsync($"https://localhost:7200/api/Request/{chatId.ToString()}", content);
+
+        if (response.IsSuccessStatusCode)
+        {
+            await botClient.SendTextMessageAsync(
+                chatId,
+                "You have been successfully registered!");
+        }
+        else
+        {
+            await botClient.SendTextMessageAsync(
+                chatId,
+                "Error occurred while registering user");
+        }
+    }
+    private static async Task DeleteUser(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
+    {
+        var message = update.Message;
+        var chatId = message.Chat.Id;
+
+        HttpResponseMessage response = await _httpClient.DeleteAsync($"https://localhost:7200/api/Request/{chatId.ToString()}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            await botClient.SendTextMessageAsync(
+                chatId,
+                "You have been successfully deleted!");
+        }
+        else
+        {
+            await botClient.SendTextMessageAsync(
+                chatId,
+                "Error occurred while deleting user");
+        }
     }
     private static Task ErrorHandler(ITelegramBotClient botClient, Exception error, CancellationToken cancellationToken)
     {

@@ -14,7 +14,7 @@ public class RequestController : ControllerBase
     private readonly IReadService _readService;
     private readonly IUserService _userService;
 
-    public RequestController(IReadService readService,IUserService userService)
+    public RequestController(IReadService readService, IUserService userService)
     {
         _readService = readService;
         _userService = userService;
@@ -23,7 +23,7 @@ public class RequestController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<MbModel>>> Get()
     {
-        
+
         var currencyData = await _readService.GetMbAsync();
         if (currencyData == null)
         {
@@ -83,7 +83,7 @@ public class RequestController : ControllerBase
             return BadRequest($"Error during currency conversion: {ex.Message}");
         }
     }
-    [HttpPut]
+    [HttpPost("{id}")]
     public async Task<IActionResult> RegisterUser(string id)
     {
         UserDTO userDTO = new UserDTO
@@ -100,7 +100,7 @@ public class RequestController : ControllerBase
             return BadRequest("Invalid user data");
         }
     }
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteUser(string id)
     {
         var deletedUser = await _userService.DeleteUser(id);
