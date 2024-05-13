@@ -4,7 +4,7 @@ namespace Kursach.Models;
 
 public class MbModel
 {
-
+    public int Id { get; set; }
     public int CurrencyCodeA { get; set; }
     public int CurrencyCodeB { get; set; }
     public long Date { get; set; }

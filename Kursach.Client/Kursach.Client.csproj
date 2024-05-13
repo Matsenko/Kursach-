@@ -12,10 +12,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Services\IService\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Kursach.Shared\Kursach.Shared.csproj" />
     </ItemGroup>
 
