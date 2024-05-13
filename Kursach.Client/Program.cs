@@ -104,7 +104,7 @@ public class Program
         var buttons = new[]
         {
         new KeyboardButton("USD"),
-        new KeyboardButton("EUR")
+        new KeyboardButton("EUR"),
     };
 
         return new ReplyKeyboardMarkup(buttons);

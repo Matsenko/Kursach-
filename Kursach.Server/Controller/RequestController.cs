@@ -42,4 +42,41 @@ public class RequestController : ControllerBase
         Console.WriteLine("Fetched data: " + string.Join(", ", currencyData));
         return Ok(currencyData);
     }
+    [HttpGet("{currency_code}/{currency_code2}/{amount}")]
+    public async Task<ActionResult<double>> ConvertCurrencies(string currency_code, string currency_code2, double amount)
+    {
+        var currencyData = await _readService.GetMbAsync();
+
+        if (currencyData == null || !currencyData.Any())
+        {
+            return NotFound("Currency data not available");
+        }
+
+        var firstCurrencyData = currencyData.FirstOrDefault(currency => currency.CurrencyCodeA.ToString() == currency_code);
+        if (firstCurrencyData == null)
+        {
+            return NotFound($"Currency '{currency_code}' not found");
+        }
+
+        var secondCurrencyData = currencyData.FirstOrDefault(currency => currency.CurrencyCodeA.ToString() == currency_code2);
+        if (secondCurrencyData == null)
+        {
+            return NotFound($"Currency '{currency_code2}' not found");
+        }
+
+        if (firstCurrencyData.RateBuy == 0 || secondCurrencyData.RateBuy == 0)
+        {
+            return BadRequest("Currency rates are not available for conversion");
+        }
+
+        try
+        {
+            double convertedAmount = (amount / firstCurrencyData.RateBuy) * secondCurrencyData.RateBuy;
+            return Ok(convertedAmount);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Error during currency conversion: {ex.Message}");
+        }
+    }
 }

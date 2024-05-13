@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Kursach\\Kursach-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\controller\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\controller\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391B6937-D196-4402-A87D-D51E608664A0}|Kursach.Client\\Kursach.Client.csproj|c:\\kursach\\kursach-\\kursach.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391B6937-D196-4402-A87D-D51E608664A0}|Kursach.Client\\Kursach.Client.csproj|solutionrelative:kursach.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524F12E3-4EF2-4B41-8D4B-F45FCD2F639D}|Kursach.Shared\\Kursach.Shared.csproj|c:\\kursach\\kursach-\\kursach.shared\\dtos\\currencydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{524F12E3-4EF2-4B41-8D4B-F45FCD2F639D}|Kursach.Shared\\Kursach.Shared.csproj|solutionrelative:kursach.shared\\dtos\\currencydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\services\\readservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\services\\readservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\services\\iservice\\ireadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\services\\iservice\\ireadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\data\\kursachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\data\\kursachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\models\\mbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\models\\mbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|c:\\kursach\\kursach-\\kursach.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A67276C-9E6A-4F97-BA97-61BFF28DCC00}|Kursach.Server\\Kursach.Server.csproj|solutionrelative:kursach.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReadService.cs",
+              "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Services\\ReadService.cs",
+              "RelativeDocumentMoniker": "Kursach.Server\\Services\\ReadService.cs",
+              "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Server\\Services\\ReadService.cs",
+              "RelativeToolTip": "Kursach.Server\\Services\\ReadService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T06:45:06.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IReadService.cs",
+              "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Services\\IService\\IReadService.cs",
+              "RelativeDocumentMoniker": "Kursach.Server\\Services\\IService\\IReadService.cs",
+              "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Server\\Services\\IService\\IReadService.cs",
+              "RelativeToolTip": "Kursach.Server\\Services\\IService\\IReadService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T06:45:05.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestController.cs",
+              "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Controller\\RequestController.cs",
+              "RelativeDocumentMoniker": "Kursach.Server\\Controller\\RequestController.cs",
+              "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Server\\Controller\\RequestController.cs",
+              "RelativeToolTip": "Kursach.Server\\Controller\\RequestController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:34:40.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Kursach.Server\\Program.cs",
+              "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Server\\Program.cs",
+              "RelativeToolTip": "Kursach.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T06:44:47.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MbModel.cs",
+              "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Models\\MbModel.cs",
+              "RelativeDocumentMoniker": "Kursach.Server\\Models\\MbModel.cs",
+              "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Server\\Models\\MbModel.cs",
+              "RelativeToolTip": "Kursach.Server\\Models\\MbModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:39:00.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurrencyDTO.cs",
+              "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Shared\\DTOs\\CurrencyDTO.cs",
+              "RelativeDocumentMoniker": "Kursach.Shared\\DTOs\\CurrencyDTO.cs",
+              "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Shared\\DTOs\\CurrencyDTO.cs",
+              "RelativeToolTip": "Kursach.Shared\\DTOs\\CurrencyDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:38:42.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Client\\Program.cs",
+              "RelativeDocumentMoniker": "Kursach.Client\\Program.cs",
+              "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Client\\Program.cs",
+              "RelativeToolTip": "Kursach.Client\\Program.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAGoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:36:03.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KursachContext.cs",
+              "DocumentMoniker": "C:\\Kursach\\Kursach-\\Kursach.Server\\Data\\KursachContext.cs",
+              "RelativeDocumentMoniker": "Kursach.Server\\Data\\KursachContext.cs",
+              "ToolTip": "C:\\Kursach\\Kursach-\\Kursach.Server\\Data\\KursachContext.cs",
+              "RelativeToolTip": "Kursach.Server\\Data\\KursachContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:35:57.249Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

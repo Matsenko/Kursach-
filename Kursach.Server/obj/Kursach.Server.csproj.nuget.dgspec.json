@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/volodymyrmatsenko/RiderProjects/Kursach/Kursach.Server/Kursach.Server.csproj": {}
+    "C:\\Kursach\\Kursach-\\Kursach.Server\\Kursach.Server.csproj": {}
   },
   "projects": {
-    "/Users/volodymyrmatsenko/RiderProjects/Kursach/Kursach.Server/Kursach.Server.csproj": {
+    "C:\\Kursach\\Kursach-\\Kursach.Server\\Kursach.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/volodymyrmatsenko/RiderProjects/Kursach/Kursach.Server/Kursach.Server.csproj",
+        "projectUniqueName": "C:\\Kursach\\Kursach-\\Kursach.Server\\Kursach.Server.csproj",
         "projectName": "Kursach.Server",
-        "projectPath": "/Users/volodymyrmatsenko/RiderProjects/Kursach/Kursach.Server/Kursach.Server.csproj",
-        "packagesPath": "/Users/volodymyrmatsenko/.nuget/packages/",
-        "outputPath": "/Users/volodymyrmatsenko/RiderProjects/Kursach/Kursach.Server/obj/",
+        "projectPath": "C:\\Kursach\\Kursach-\\Kursach.Server\\Kursach.Server.csproj",
+        "packagesPath": "C:\\Users\\vovam\\.nuget\\packages\\",
+        "outputPath": "C:\\Kursach\\Kursach-\\Kursach.Server\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/volodymyrmatsenko/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vovam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

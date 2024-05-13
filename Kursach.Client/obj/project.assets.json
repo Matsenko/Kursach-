@@ -30,6 +30,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Kursach.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Kursach.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kursach.Shared.dll": {}
+        }
       }
     }
   },
@@ -78,39 +88,56 @@
         "telegram.bot.20.0.0-alpha.1.nupkg.sha512",
         "telegram.bot.nuspec"
       ]
+    },
+    "Kursach.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Kursach.Shared/Kursach.Shared.csproj",
+      "msbuildProject": "../Kursach.Shared/Kursach.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Kursach.Shared >= 1.0.0",
       "Telegram.Bot >= 20.0.0-alpha.1"
     ]
   },
   "packageFolders": {
-    "/Users/volodymyrmatsenko/.nuget/packages/": {}
+    "C:\\Users\\vovam\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/volodymyrmatsenko/RiderProjects/Kursach/Kursach.Client/Kursach.Client.csproj",
+      "projectUniqueName": "C:\\Kursach\\Kursach-\\Kursach.Client\\Kursach.Client.csproj",
       "projectName": "Kursach.Client",
-      "projectPath": "/Users/volodymyrmatsenko/RiderProjects/Kursach/Kursach.Client/Kursach.Client.csproj",
-      "packagesPath": "/Users/volodymyrmatsenko/.nuget/packages/",
-      "outputPath": "/Users/volodymyrmatsenko/RiderProjects/Kursach/Kursach.Client/obj/",
+      "projectPath": "C:\\Kursach\\Kursach-\\Kursach.Client\\Kursach.Client.csproj",
+      "packagesPath": "C:\\Users\\vovam\\.nuget\\packages\\",
+      "outputPath": "C:\\Kursach\\Kursach-\\Kursach.Client\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/volodymyrmatsenko/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vovam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Kursach\\Kursach-\\Kursach.Shared\\Kursach.Shared.csproj": {
+              "projectPath": "C:\\Kursach\\Kursach-\\Kursach.Shared\\Kursach.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -149,7 +176,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
