@@ -1,6 +1,8 @@
 using Kursach.Models;
 using Kursach.Service;
 using Kursach.Service.IService;
+using Kursach.Services.IService;
+using Kursach.Shared.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Kursach.Controller;
@@ -10,10 +12,12 @@ namespace Kursach.Controller;
 public class RequestController : ControllerBase
 {
     private readonly IReadService _readService;
+    private readonly IUserService _userService;
 
-    public RequestController(IReadService readService)
+    public RequestController(IReadService readService,IUserService userService)
     {
         _readService = readService;
+        _userService = userService;
     }
 
     [HttpGet]
@@ -79,4 +83,35 @@ public class RequestController : ControllerBase
             return BadRequest($"Error during currency conversion: {ex.Message}");
         }
     }
+    [HttpPut]
+    public async Task<IActionResult> RegisterUser(string id)
+    {
+        UserDTO userDTO = new UserDTO
+        {
+            UserId = id
+        };
+        var registeredUser = await _userService.RegisterUser(userDTO);
+        if (registeredUser != null)
+        {
+            return Ok();
+        }
+        else
+        {
+            return BadRequest("Invalid user data");
+        }
+    }
+    [HttpDelete]
+    public async Task<IActionResult> DeleteUser(string id)
+    {
+        var deletedUser = await _userService.DeleteUser(id);
+        if (deletedUser != null)
+        {
+            return Ok();
+        }
+        else
+        {
+            return BadRequest("User not found");
+        }
+    }
+
 }
