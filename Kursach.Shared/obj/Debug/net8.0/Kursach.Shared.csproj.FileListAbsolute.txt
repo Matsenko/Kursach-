@@ -1,0 +1,12 @@
+C:\Kursach\Kursach-\Kursach.Shared\bin\Debug\net8.0\Kursach.Shared.deps.json
+C:\Kursach\Kursach-\Kursach.Shared\bin\Debug\net8.0\Kursach.Shared.dll
+C:\Kursach\Kursach-\Kursach.Shared\bin\Debug\net8.0\Kursach.Shared.pdb
+C:\Kursach\Kursach-\Kursach.Shared\obj\Debug\net8.0\Kursach.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kursach\Kursach-\Kursach.Shared\obj\Debug\net8.0\Kursach.Shared.AssemblyInfoInputs.cache
+C:\Kursach\Kursach-\Kursach.Shared\obj\Debug\net8.0\Kursach.Shared.AssemblyInfo.cs
+C:\Kursach\Kursach-\Kursach.Shared\obj\Debug\net8.0\Kursach.Shared.csproj.CoreCompileInputs.cache
+C:\Kursach\Kursach-\Kursach.Shared\obj\Debug\net8.0\Kursach.Shared.sourcelink.json
+C:\Kursach\Kursach-\Kursach.Shared\obj\Debug\net8.0\Kursach.Shared.dll
+C:\Kursach\Kursach-\Kursach.Shared\obj\Debug\net8.0\refint\Kursach.Shared.dll
+C:\Kursach\Kursach-\Kursach.Shared\obj\Debug\net8.0\Kursach.Shared.pdb
+C:\Kursach\Kursach-\Kursach.Shared\obj\Debug\net8.0\ref\Kursach.Shared.dll
