@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kursach.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b426a6f8c0468b98512deda71d1958b611150869")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8e1fac3e1c4cf4438fd86393c0d59f044b0d5b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kursach.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kursach.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

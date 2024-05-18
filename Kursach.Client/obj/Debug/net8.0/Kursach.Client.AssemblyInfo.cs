@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kursach.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bec182e84a82388348dcf93d97fc8bdbd1e4725b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8e1fac3e1c4cf4438fd86393c0d59f044b0d5b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kursach.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kursach.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

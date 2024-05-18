@@ -113,5 +113,31 @@ public class RequestController : ControllerBase
             return BadRequest("User not found");
         }
     }
+    [HttpPut("{id}")]
+    public async Task<IActionResult> RequestCount(string id)
+    {
+        var user = await _userService.RequestCount(id);
+        if (user != null)
+        {
+            return Ok();
+        }
+        else
+        {
+            return BadRequest("User not found");
+        }
+    }
+    [HttpGet("{id}", Name ="UserInfo")]
+    public async Task<ActionResult<UserModel>> GetUser(string id)
+    {
+        var user = await _userService.GetUser(id);
+        if (user != null)
+        {
+            return Ok(user);
+        }
+        else
+        {
+            return NotFound("User not found");
+        }
+    }
 
 }

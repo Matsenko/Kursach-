@@ -8,5 +8,7 @@ namespace Kursach.Services.IService
     {
         Task<UserModel> RegisterUser(UserDTO userModel);
         Task<UserModel> DeleteUser(string userId);
+        Task<UserModel> GetUser(string userId);
+        Task<UserModel> RequestCount(string userId);
     }
 }

@@ -9,5 +9,6 @@ namespace Kursach.Shared.DTOs
     public class UserDTO
     {
         public string UserId { get; set; }
+        public string RequestsCount { get; set; }
     }
 }

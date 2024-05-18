@@ -34,9 +34,25 @@ namespace Kursach.Services
                 return null;
             }
 
-            _context.Users.Remove(user);
+            user.isDeleted = true;
+            _context.Users.Update(user);
             await _context.SaveChangesAsync();
 
+            return user;
+        }
+        public async Task<UserModel> GetUser(string userId)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.UserId == userId);
+        }
+        public async Task<UserModel> RequestCount(string userId)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.UserId == userId);
+            if (user == null)
+            {
+                return null;
+            }
+            user.RequestsCount++;
+            await _context.SaveChangesAsync();
             return user;
         }
     }

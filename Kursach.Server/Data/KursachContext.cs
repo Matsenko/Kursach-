@@ -15,7 +15,7 @@ namespace Kursach.Data
         public DbSet<MbModel> Currencies { get; set; }
         public DbSet<UserModel> Users { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    => optionsBuilder.UseSqlServer("Data Source=LAPTOP-C1HR1LSD\\ZENON_2012;Initial Catalog=Kursach3;Trusted_Connection=True;TrustServerCertificate=True;");
+    => optionsBuilder.UseSqlServer("Data Source=LAPTOP-C1HR1LSD\\ZENON_2012;Initial Catalog=Kursach4;Trusted_Connection=True;TrustServerCertificate=True;");
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<MbModel>().HasKey(x => x.Id);

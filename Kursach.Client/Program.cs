@@ -65,39 +65,16 @@ public class Program
                     else if(message.Text == "/stop")
                     {
                         await DeleteUser(botClient, update, cancellationToken);
-                        await botClient.SendTextMessageAsync(
-                            chatId,
-                            "You have been successfully deleted!");
 
                     }
                     else if (message.Text == "USD")
                     {
-                        List<CurrencyDTO> currencies =    await SendRequestToServer("https://localhost:7200/api/Request/840");
-
-                        if (currencies != null)
-                        {
-                            foreach (var currency in currencies)
-                            {
-                                await botClient.SendTextMessageAsync(
-                                             chatId,
-                                             $"Rate Sell:{currency.RateSell}.Rate Buy:{currency.RateBuy}");
-                            }
-                        }
+                        GetCurrency(botClient, update, cancellationToken,840);
          
                     }
                     else if (message.Text == "EUR")
                     {
-                        List<CurrencyDTO> currencies = await SendRequestToServer("https://localhost:7200/api/Request/840");
-
-                        if (currencies != null)
-                        {
-                            foreach (var currency in currencies)
-                            {
-                                await botClient.SendTextMessageAsync(
-                                             chatId,
-                                             $"Rate Sell:{currency.RateSell}.Rate Buy:{currency.RateBuy}");
-                            }
-                        }
+                        GetCurrency(botClient, update, cancellationToken,978);
                     }
                     break;
                 default:
@@ -162,6 +139,43 @@ public class Program
                 "Error occurred while registering user");
         }
     }
+    private static async Task GetCurrency(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken,int currencyID)
+    {
+        var message = update.Message;
+        var chatId = message.Chat.Id;
+
+        List<CurrencyDTO> currencies = await SendRequestToServer($"https://localhost:7200/api/Request/{currencyID}");
+
+        if (currencies != null)
+        {
+            var content = new StringContent(JsonConvert.SerializeObject(new UserDTO { UserId = chatId.ToString() }), Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await _httpClient.PutAsync($"https://localhost:7200/api/Request/{chatId.ToString()}", content);
+            foreach (var currency in currencies)
+            {
+                if (currency.CurrencyCodeB == 980) {
+                    await botClient.SendTextMessageAsync(
+                 chatId,
+                 $"Rate Sell:{currency.RateSell}UAH.Rate Buy:{currency.RateBuy}UAH");
+
+                }
+
+                else
+                {
+                    await botClient.SendTextMessageAsync(
+                                 chatId,
+                                 $"Rate Sell:{currency.RateSell}USD.Rate Buy:{currency.RateBuy}USD");
+                }
+            }
+        }
+        else
+        {
+                        await botClient.SendTextMessageAsync(
+                chatId,
+                "Error occurred while fetching currency data");
+        }
+
+
+    }
     private static async Task DeleteUser(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
     {
         var message = update.Message;
@@ -182,6 +196,7 @@ public class Program
                 "Error occurred while deleting user");
         }
     }
+
     private static Task ErrorHandler(ITelegramBotClient botClient, Exception error, CancellationToken cancellationToken)
     {
 
